@@ -80,9 +80,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "roga$portfoliodb",
         "USER": "roga",
-        "PASSWORD": "django1234",
+        "PASSWORD": "MoRi2714",
         "HOST": "roga.mysql.pythonanywhere-services.com",
-        "PORT": "3306",
+        "PORT": "",
     }
 }
 
