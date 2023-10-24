@@ -82,7 +82,9 @@ DATABASES = {
         "USER": "roga",
         "PASSWORD": "MoRi2714",
         "HOST": "roga.mysql.pythonanywhere-services.com",
-        "PORT": "",
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        },
     }
 }
 
